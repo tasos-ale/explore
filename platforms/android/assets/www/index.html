@@ -1,0 +1,286 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-type" name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width">
+    <title>Explore Knowledge Center App</title>
+
+ 	<link rel="stylesheet" href="jquery.mobile/jquery.mobile-1.3.2.min.css" type="text/css"/>
+	<link rel="stylesheet" href="jquery.mobile/themes/explore-theme.min.css" type="text/css" /> 
+	<link rel="stylesheet" href="css/main.css" type="text/css" /> 
+
+    <script src="jquery.mobile/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/pre-jqm.js"></script>
+	<script type="text/javascript" charset="utf-8" src="js/translate-class.js"></script>
+	<script type="text/javascript" charset="utf-8" src="jquery.mobile/jquery.mobile-1.3.2.min.js"></script>
+
+	<script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+	<script type="text/javascript" charset="utf-8" src="js/main.js"></script>
+  </head>
+  
+  <body onload="onLoad()">
+	<!-- 		Home page 		-->  
+	<div data-role="page" id="home">	
+	<div data-role="panel" id="menu1">
+		<a href="#profile" class="en" data-role="button" >Profile</a>
+		<a href="#languages" class="en" data-role="button" >Languages</a>
+		<a href="#premises" class="en" data-role="button" >Premises</a>
+		<a href="#training" class="en" data-role="button" >Training</a>
+		<a href="contactus.html" class="en" data-role="button" rel="external">Contact us</a>
+		<a href="#settings" class="en" data-role="button" >Settings</a>
+    	<a href="#" class="en" data-role="button" onclick="navigator.app.exitApp();">Close App</a>
+	</div>
+	<div data-role="header" >
+		<a href="#menu1" class="en" data-icon="arrow-r" data-iconpos="right" data-inline="true">Home</a>
+		<h1>Explore</h1>
+	</div><!-- header end -->
+	<div data-role="content">
+    	<div id="home-content"></div> 
+    	<br>
+	</div><!-- content end -->
+
+	<div data-role="footer">
+		<h4>Copyright © 2013 Explore</h4>
+	</div><!-- /footer -->
+	</div><!-- page end -->
+  	<!-- 		Home page end		--> 
+  	<!-- 		Profile page 		--> 
+	<div data-role="page" id="profile" >
+
+	<div data-role="panel" id="menu2">
+		<a href="#home" class="en" data-role="button" >Home</a>
+		<a href="#languages" class="en" data-role="button" >Languages</a>
+		<a href="#premises" class="en" data-role="button" >Premises</a>
+		<a href="#training" class="en" data-role="button" >Training</a>
+		<a href="contactus.html" class="en" data-role="button" rel="external">Contact us</a>
+		<a href="#settings" class="en" data-role="button" >Settings</a>
+    	<a href="#" class="en" data-role="button" onclick="navigator.app.exitApp();">Close App</a>
+	</div>
+		<div data-role="header">
+			<a href="#menu2" class="en" data-icon="arrow-r" data-iconpos="right">Profile</a>
+			<h1></h1>
+		</div><!-- /header -->
+
+		<div data-role="content">	
+			<div id="profile-content"></div> 
+			<br>
+		</div><!-- /content -->
+
+		<div data-role="footer">
+			<h4>Copyright © 2013 Explore</h4>
+		</div><!-- /footer -->
+
+
+	</div><!-- /page -->
+	<!-- 		Profile page end 		-->
+	<!-- 		Languages page 		-->
+	<div data-role="page" id="languages">
+
+		<div data-role="header" >
+			<a href="#menu3" class="en" class="en"  data-icon="arrow-r" data-iconpos="right">Languages</a>
+			<h1></h1>
+		</div><!-- /header -->
+
+		<div data-role="content">	
+			<h1 class="en">English</h1>
+			<div id="english-content"></div> 
+			<h1 class="en">German</h1>
+			<div id="german-content"></div> 	
+		</div><!-- /content -->
+
+		<div data-role="footer">
+			<h4>Copyright © 2013 Explore</h4>
+		</div><!-- /footer -->
+
+	<div data-role="panel" id="menu3">
+		<a href="#home" class="en" data-role="button" >Home</a>
+		<a href="#profile" class="en" data-role="button" >Profile</a>
+		<a href="#premises" class="en" data-role="button" >Premises</a>
+		<a href="#training" class="en" data-role="button" >Training</a>
+		<a href="contactus.html" class="en" data-role="button" rel="external">Contact us</a>
+		<a href="#settings" class="en" data-role="button" >Settings</a>
+    	<a href="#" class="en" data-role="button" onclick="navigator.app.exitApp();">Close App</a>
+	</div>
+
+	</div><!-- /page -->
+	<!-- 		Languages page end		-->
+  	<!-- 		Premises page 		-->
+  	<div data-role="page" id="premises">
+
+	<div data-role="header" >
+		<a href="#menu4" class="en" data-icon="arrow-r" data-iconpos="right">Premises</a>
+		<h1></h1>
+	</div><!-- /header -->
+
+	<div data-role="content">	
+		<div id="premises-content"></div> 	
+	</div><!-- /content -->
+
+	<div data-role="footer">
+		<h4>Copyright © 2013 Explore</h4>
+	</div><!-- /footer -->
+
+		<div data-role="panel" id="menu4">
+		<a href="#home" class="en" data-role="button" >Home</a>
+		<a href="#profile" class="en" data-role="button" >Profile</a>
+		<a href="#languages" class="en" data-role="button" >Languages</a>
+		<a href="#training" class="en" data-role="button" >Training</a>
+		<a href="contactus.html" class="en" data-role="button" rel="external">Contact us</a>
+		<a href="#settings" class="en" data-role="button" >Settings</a>
+    	<a href="#" class="en" data-role="button" onclick="navigator.app.exitApp();">Close App</a>
+	</div>
+
+	</div><!-- /page -->
+  	<!-- 		Premises page end		-->
+  	<!-- 		Training page 		-->
+  	<div data-role="page" id="training">
+
+	<div data-role="header" >
+		<a href="#menu5" class="en" data-icon="arrow-r" data-iconpos="right">Training</a>
+		<h1></h1>
+	</div><!-- /header -->
+
+	<div data-role="content">	
+
+		<h1 class="en">Study Tips</h1>
+		<div id="study-tips-content"></div>
+
+		<h1 class="en">Online Exercises</h1>
+		<p class="en">In order to use our online exercises section, you need to have an account and log in.</p>
+		<h3 id="notification"></h3>
+
+			<form id="callAjaxForm" >
+				<fieldset class="input">
+
+				<label class="en" for="modlgn_username" class="ui-input-text">User Name</label>
+				<input name="username" type="text" id="username">
+
+
+				<label class="en" for="modlgn_passwd" class="ui-input-text">User Password</label>
+				<input name="password" type="password" id="password">
+
+
+		
+			</fieldset>
+
+			    <fieldset data-role="controlgroup">
+				   <input type="checkbox" name="checkbox-agree" id="checkbox-agree" class="custom" checked/>
+				   <label class="en" for="checkbox-agree">Remember Me</label>
+			    </fieldset>
+			<br>
+			<input class="en" type="submit" id="submit" value="Login">
+			</form>
+
+
+		<br>
+		<br>
+	</div><!-- /content -->
+
+	<div data-role="footer">
+		<h4>Copyright © 2013 Explore</h4>
+	</div><!-- /footer -->
+
+		<div data-role="panel" id="menu5">
+		<a href="#home" class="en" data-role="button" >Home</a>
+		<a href="#profile" class="en" data-role="button" >Profile</a>
+		<a href="#languages" class="en" data-role="button" >Languages</a>
+		<a href="#premises" class="en" data-role="button" >Premises</a>
+		<a href="contactus.html" class="en" data-role="button" rel="external">Contact us</a>
+		<a href="#settings" class="en" data-role="button" >Settings</a>
+    	<a href="#" class="en" data-role="button" onclick="navigator.app.exitApp();">Close App</a>
+		</div>
+	</div><!-- /page -->
+  	<!-- 		Training page end		-->
+	<!-- 		Online Exercises page		-->
+	<div data-role="page" id="online-exercises">
+	
+	<div data-role="header" >
+		<a href="#menu6" class="en" data-icon="arrow-r" data-iconpos="right">Online Exercises</a>
+		<h1></h1>
+			<div data-role="navbar">
+				<ul>
+ 					<li><a href="#" id="eng-ex" class="en" data-role="button" data-inline="true">English</a></li>
+ 					<li><a href="#" id="ger-ex" class="en" data-role="button" data-inline="true">German</a></li>
+ 				</ul>
+ 			</div><!-- /navbar -->
+	</div><!-- /header --> 
+
+	<div data-role="content">	
+ 			<div id="online-exercises-content"></div>
+ 			<br>
+ 			<br>
+	</div><!-- /content -->
+
+	<div data-role="footer">
+	<h4>Copyright © 2013 Explore</h4>
+	</div><!-- /footer -->
+		<div data-role="panel" id="menu6">
+		<a href="#home" class="en" data-role="button" >Home</a>
+		<a href="#profile" class="en" data-role="button" >Profile</a>
+		<a href="#languages" class="en" data-role="button" >Languages</a>
+		<a href="#premises" class="en" data-role="button" >Premises</a>
+		<a href="contactus.html" class="en" data-role="button" rel="external">Contact us</a>
+		<a href="#training" class="en" data-role="button" >Training</a>
+		<a href="#settings" class="en" data-role="button" >Settings</a>
+    	<a href="#" class="en" data-role="button" onclick="navigator.app.exitApp();">Close App</a>
+		</div>
+	</div>
+	<!-- 		Online Exercises page end		-->
+
+  	<!-- 		Settings page		-->		
+	<div data-role="page" id="settings">
+
+		<div data-role="header" >
+			<a href="#menu7" class="en" data-icon="arrow-r" data-iconpos="right">Settings</a>
+			<h1></h1>
+		</div><!-- /header -->
+
+		<div data-role="content">	
+			Language/Γλώσσα:
+			<fieldset data-role="controlgroup" data-type="horizontal" >
+			<input type="radio" id="radioEnglish" name="radio-language" value="en"/><label for="radioEnglish">English</label>
+			<input type="radio" id="radioGreek" name="radio-language" value="el" /><label for="radioGreek">Ελληνικά</label>
+			</fieldset>
+			<a href="#" class="en" data-role="button" onclick="navigator.app.exitApp();">Close App</a>
+			<a href="#" class="en" data-role="button" onClick="window.location.reload()">Refresh</a>
+		</div><!-- /content -->
+
+		<div data-role="footer">
+			<h4>Copyright © 2013 Explore</h4>
+		</div><!-- /footer -->
+
+	<div data-role="panel" id="menu7">
+		<a href="#home" class="en" data-role="button" >Home</a>
+		<a href="#profile" class="en" data-role="button" >Profile</a>
+		<a href="#languages" class="en" data-role="button" >Languages</a>
+		<a href="#premises" class="en" data-role="button" >Premises</a>
+		<a href="#training" class="en" data-role="button" >Training</a>
+		<a href="contactus.html" class="en" data-role="button" rel="external">Contact us</a>
+    	<a href="#" class="en" data-role="button" onclick="navigator.app.exitApp();">Close App</a>
+	</div>
+
+	</div><!-- /page -->
+	<!-- 		Settings page end		-->
+	<!-- 		Offline page		-->		
+  	<div data-role="page" id="offline">
+
+		<div data-role="header" >
+			<h1>Explore</h1>
+		</div><!-- /header -->
+
+		<div data-role="content">	
+			<br>
+			<div class="en">You need to have an active internet connection, in order to use this app for the first time.</div>
+			<br>
+			<fieldset data-role="controlgroup" data-type="horizontal" >
+			<input type="radio" id="radioEnglish" name="radio-language-offline" value="en"/><label for="radioEnglish">English</label>
+			<input type="radio" id="radioGreek" name="radio-language-offline" value="el" /><label for="radioGreek">Ελληνικά</label>
+			</fieldset>
+			<br>
+			<a href="#" class="en" data-role="button" onclick="navigator.app.exitApp();">Close App</a>
+		</div><!-- /content -->
+
+	</div><!-- /page -->
+	<!-- 		Offline page end		-->
+  </body>
+</html>
